@@ -18,3 +18,4 @@ for first in open('input-day2.txt'):
     for second in open('input-day2.txt'): #sloppy, should start iteration at line first + 1
         if differs_by_one(first, second):
             print(subtract_differences(first, second))
+            exit()
